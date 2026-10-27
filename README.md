@@ -1,6 +1,5 @@
 CS340-Client-ServerDevelopment2025-C6
 
-CS340-Client/Server Development 2025-C-6Just help me and
 
 1. Writing Maintainable, Readable, and Adaptable Programs
 I have been learning alot about CRUD during my time here are Southern New Hampshire University, and I believe that Im getting better and better at implementing it with every class. I focused on a modular design through real-world challenges. I did struggle with authentication issues due to it not accepting my username and password parameters correctly. But after refactoring from __innit)(self) to innit(self, username, password), I was able to use it properly. This experience led me to create maintainable code that requires flexibility from the start. My CRUD module with its standardized methods was able to support everything from simple test queries to finding dogs named Lucy to complex filteres searches. The biggest advantage of such an approach was when debugging my gateway timeout issues with this project. Since CRUD operations were essentially isolated, I could test database connectivity independently from the callback functions that were causing issues. This CRUD module can therefore be easily reused for other MongoDB projects.
